@@ -4,9 +4,9 @@ Block Born & Balthazar Hackathon 2022 entry by ChainHackers
 
 [Prototype: Tic-Tac-Toe Game on Tezos](https://tezos.gamejutsu.app/)  
 [Contracts Source Code](https://github.com/chainhackers/gamejutsu-tezos-contracts)  
-[Frontend Source Code](https://github.com/chainhackers/anti-cheat-tool)  
+[Frontend Source Code](https://github.com/chainhackers/anti-cheat-tool/tree/anticheat-01)  
 [Block Born & Balthazar Hackathon Progect Page](https://gitcoin.co/hackathon/block-born/projects/17430/gamejutsutezos)  
-[Prototype: Checkers And Tic-Tac-Toe](https://gamejutsu.app/games) and [Arbiter & Rules](https://github.com/chainhackers/gamejutsu-contracts) Built On Same Base on Polygon Chain
+A more complete demo of the principle in Polygon chain [Prototype: Checkers And Tic-Tac-Toe](https://gamejutsu.app/games) and [Arbiter & Rules](https://github.com/chainhackers/gamejutsu-contracts) 
 
 ### What we built
 
@@ -24,8 +24,8 @@ Main differences between GameJutsu and ForceMove are:
 
 * move order is determined by the game rules, not by the turn number
 * game rules are defined by 2 main functions instead of the single `validTransition`
-    * [isValidMove]() Редактировать ссылку  
-    * [transition]() Редактировать ссылку  
+    * `isValidMove()`  
+    * `transition()`
    
 In case there's only a `validTransition` function in the game rules interface,
 dealing with ambiguity in game state transitions might be challenging.
@@ -89,6 +89,11 @@ GameJutsu skillfully attacks all 3 problems at once using state channels and ses
 The game can progress as fast as game clients can exchange signed messages between themselves and process those. With message size under 1KB and today's internet that's pretty fast.  
 Can you make a truly decentralized Dota-2 with that? Who knows, [check out the game](https://tezos.gamejutsu.app/) ChainHackers made for you to try during Block Born & Balthazar Hackathon - pure old-fashioned game experience with almost no extra clicks!
 
-### Product Backlog For Reaching 'Completion':  
-* Guideline for making contracts and front-end for developers 
-* Examples of classic random games like Rock Paper Scissors
+### Product Backlog For Reaching Completion:  
+* Guidelines coding new game rules contracts
+* 3 or more classic game examples, aiming at 
+  * Checkers
+  * Rock-Paper-Scissors
+  * Go
+* Front-end code guidelines and examples
+* A lightweight front-end library covering game move packing/unpacking
