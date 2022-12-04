@@ -5,8 +5,8 @@ Block Born & Balthazar Hackathon 2022 entry by ChainHackers
 [Contracts](https://github.com/chainhackers/gamejutsu-tezos-contracts)  
 [Demo Games](https://github.com/chainhackers/anti-cheat-tool)  
 [Block Born & Balthazar Hackathon Progect Page](https://gitcoin.co/hackathon/block-born/projects/17430/gamejutsutezos)  
-[Tic-Tac-Toe Game on Tezos](https://tezos.gamejutsu.app/)  
-[Checkers And Tic-Tac-Toe Built On Same Base on Polygon](https://gamejutsu.app/games)
+[Prototype: Tic-Tac-Toe Game on Tezos](https://tezos.gamejutsu.app/)  
+[Prototype: Checkers And Tic-Tac-Toe](https://gamejutsu.app/games) and [Arbiter & Rules](https://github.com/chainhackers/gamejutsu-contracts) Built On Same Base on Polygon Chain
 
 ### What we built
 
